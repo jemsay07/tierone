@@ -1,0 +1,366 @@
+/*------------------------------------------------
+Modal
+------------------------------------------------*/
+#dp_modal .modal-dialog{
+	width: 755px;
+	max-width: 100%;
+    margin: 10px auto;
+}
+#dp_modal .modal-header{
+	padding: 0;
+	background: #003147;
+	min-height: 65px;
+	border-color: #031e2c;
+}
+#dp_modal .modal-content{
+	border-radius: 0;
+	border-color: #2b9daf;
+}
+#dp_modal .modal-body{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,031e2b+0,003147+100 */
+	background: rgb(207,231,250); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(3,30,43,1) 0%, rgba(0,49,71,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(3,30,43,1) 0%,rgba(0,49,71,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(3,30,43,1) 0%,rgba(0,49,71,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#003147',GradientType=0 ); /* IE6-9 */
+    color: #fff;
+    min-height: 255px;
+    padding: 20px 15px;
+}
+/*------------------------------------------------
+Pills
+------------------------------------------------*/
+#dp_modal .nav-pills>li{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#318ea3+0,318ea3+50,135f71+51,135f71+100 */
+	background: rgb(49,142,163); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(49,142,163,1) 0%, rgba(49,142,163,1) 50%, rgba(19,95,113,1) 51%, rgba(19,95,113,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(49,142,163,1) 0%,rgba(49,142,163,1) 50%,rgba(19,95,113,1) 51%,rgba(19,95,113,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(49,142,163,1) 0%,rgba(49,142,163,1) 50%,rgba(19,95,113,1) 51%,rgba(19,95,113,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#318ea3', endColorstr='#135f71',GradientType=0 ); /* IE6-9 */
+}
+#dp_modal .nav-pills>li.active>a,
+#dp_modal .nav-pills>li.active>a:focus,
+#dp_modal .nav-pills>li.active>a:hover{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#36c9d3+0,36c9d3+50,10a5b9+51,10a5b9+100 */
+background: rgb(54,201,211); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(54,201,211,1) 0%, rgba(54,201,211,1) 50%, rgba(16,165,185,1) 51%, rgba(16,165,185,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(54,201,211,1) 0%,rgba(54,201,211,1) 50%,rgba(16,165,185,1) 51%,rgba(16,165,185,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(54,201,211,1) 0%,rgba(54,201,211,1) 50%,rgba(16,165,185,1) 51%,rgba(16,165,185,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36c9d3', endColorstr='#10a5b9',GradientType=0 ); /* IE6-9 */
+}
+#dp_modal .nav-pills>li>a:focus,
+#dp_modal .nav-pills>li>a:hover{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#36c9d3+0,36c9d3+50,10a5b9+51,10a5b9+100 */
+	background: rgb(54,201,211); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(54,201,211,1) 0%, rgba(54,201,211,1) 50%, rgba(16,165,185,1) 51%, rgba(16,165,185,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(54,201,211,1) 0%,rgba(54,201,211,1) 50%,rgba(16,165,185,1) 51%,rgba(16,165,185,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(54,201,211,1) 0%,rgba(54,201,211,1) 50%,rgba(16,165,185,1) 51%,rgba(16,165,185,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36c9d3', endColorstr='#10a5b9',GradientType=0 ); /* IE6-9 */
+}
+#dp_modal .nav>li{
+    border: 1px solid #36c9d3;
+    border-right-width: 0;
+    border-top-width: 0;
+}
+#dp_modal .nav>li>a{
+	padding: 10px 22px;
+}
+#dp_modal .nav-pills>li>a{
+	border-radius: 0;
+	color:#fff;
+}
+#dp_modal .nav-pills>li+li{
+	margin-left: 0;
+}
+#dp_modal .nav>li:first-child{
+	border-left-width: 0;
+}
+#dp_modal .nav-pills>li+li:last-child{
+	border-right: 1px solid #36c9d3;
+}
+/*------------------------------------------------
+Custom Download APP style
+------------------------------------------------*/
+#dp_modal .dp-title{
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #1d1d1d;
+}
+#dp_modal #dp-tBox{
+	padding: 10px 0;
+}
+#dp_modal .dp-close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    width: 0;
+    height: 0;
+    border-top: 38px solid #10a5b9;
+    border-left: 38px solid transparent;
+    cursor: pointer;
+}
+#dp_modal .dp-close span{
+    position: absolute;
+    top: -40px;
+    right: 0px;
+    font-size: 30px;
+    color: #fff;
+    line-height: 1;
+}
+
+/*------------------------------------------------
+Box
+------------------------------------------------*/
+#dp_modal .dp-fig-box,
+#dp_modal .dp-fig-content{
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+#dp_modal .dp-fig-box{
+    margin: 0 auto 30px;
+    position: relative;
+    width: 140px;
+}
+#dp_modal .dp-fig-header{
+    padding: 7px 5px;
+    background: #0c4f5e;
+}
+#dp_modal .dp-fig-header h4{
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    color: #fff;
+}
+#dp_modal .dp-fig-content{
+    background: #2b9daf;
+    padding: 6px;
+    overflow: hidden;
+}
+/*------------------------------------------------
+figcaption button
+------------------------------------------------*/
+#dp_modal .fig-btn{
+	height: 96px;
+	width: 100%;
+	display: block;
+    background: url('../inc/images/download-app-logo.png') no-repeat;
+}
+#dp_modal .fig-icon-ag{
+    background-position: -123px 0px;
+}
+#dp_modal .fig-icon-pt{
+    background-position: 0 0;
+}
+#dp_modal .fig-icon-allbet{
+    background-position: -258px 0;
+}
+#dp_modal .fig-icon-mg{
+    background-position: -515px 0;
+}
+#dp_modal .fig-icon-opus{
+    background-position: -900px 0;
+}
+#dp_modal .fig-icon-gp{
+    background-position: -640px 0;
+}
+#dp_modal .fig-icon-idn{
+    background-position: -385px 0px;
+}
+#dp_modal .fig-icon-gudang{
+    background-position: -770px 0;
+}
+/*------------------------------------------------
+footer
+------------------------------------------------*/
+#dp_modal .dp-fig-footer{
+    text-align: center;
+    text-transform: uppercase;
+}
+#dp_modal .dp-fig-footer h4{
+    margin-top: 7px;
+    margin-bottom: 0;
+    padding-bottom: 7px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #fff;
+}
+/*------------------------------------------------
+overlay
+------------------------------------------------*/
+#dp_modal .dp-fig-overlay{
+    background: rgba(3,32,46,0.5);
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    overflow: hidden;
+    padding: 0px;
+    transition: all ease 0.3s;
+}
+#dp_modal .dp-fig-overlay a,
+#dp_modal .dp-fig-overlay a i{
+	color: #fff;
+}
+#dp_modal .dp-fig-overlay a:hover{
+	text-decoration: none;
+}
+#dp_modal .dp-fig-overlay span{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#dp_modal .dp-fig-coming{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+#dp_modal .dp-fig-overlay i{
+	display: block;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    width: 50%;
+    margin: 0 auto;
+}
+#dp_modal .dp-fig-box:hover .dp-fig-overlay{
+	opacity: 1;
+    height: 100%;
+}
+/*------------------------------------------------
+Media Query
+------------------------------------------------*/
+@media only screen and (max-width: 320px){
+	/*modal*/
+	#dp_modal .modal-open .modal{
+		padding-left: 0 !important;
+	}
+	#dp_modal #pill_a .col-xs-6,
+	#dp_modal #pill_b .col-xs-6,
+	#dp_modal #pill_c .col-xs-6{
+		width: 100%;
+	}
+	#dp_modal .dp-fig-box{
+		width: 53%;
+	}
+	#dp_modal .dp-fig-header h4{
+		font-size: 14px;
+	}
+	#dp_modal .dp-title{
+		font-size: 25px;
+	}
+}
+@media only screen and (max-width: 768px){
+	#dp_modal .nav>li{
+		width: 33.33%;
+		text-align: center;
+	}
+	/*modal*/
+	#dp_modal .modal-dialog{
+		padding: 10px;
+	}
+	#dp_modal .dp-close{
+		top: -65px;
+		border-top-width: 40px;
+		border-left-width: 40px;
+	}
+	#dp_modal .dp-close span{
+		top: -42px;
+	}
+	#dp_modal .dp-title{
+		text-align: center;
+		font-size: 25px;
+	}
+	#dp_modal .nav-pills>li+li:last-child{
+		border-right-width: 0;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+	#dp_modal .nav>li{
+		width: 33.33%;
+		text-align: center;
+	}
+	#dp_modal .modal-dialog{
+		padding: 10px;
+	}
+	#dp_modal .dp-close{
+		top: -65px;
+		border-top-width: 40px;
+		border-left-width: 40px;
+	}
+	#dp_modal .dp-close span{
+		top: -42px;
+	}
+	#dp_modal .dp-title{
+		text-align: center;
+	}
+	#dp_modal .nav-pills>li+li:last-child{
+		border-right-width: 0;
+	}
+    #dp_modal .modal-body{
+    	padding: 20px 0;
+    }
+	#dp_modal .dp-title{
+		font-size: 25px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	#dp_modal .nav>li{
+		width: 33.33%;
+		text-align: center;
+	}
+	#dp_modal .modal-dialog{
+		padding: 10px;
+	}
+	#dp_modal .dp-close{
+		top: -63px;
+		border-top-width: 40px;
+		border-left-width: 40px;
+	}
+	#dp_modal .dp-close span{
+		top: -42px;
+	}
+	#dp_modal .dp-title{
+		text-align: center;
+	}
+	#dp_modal .nav-pills>li+li:last-child{
+		border-right-width: 0;
+	}
+	#dp_modal .dp-title{
+		font-size: 25px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+	#dp_modal .nav>li{
+		width: 33.33%;
+		text-align: center;
+	}
+	#dp_modal .modal-dialog{
+		padding: 10px;
+	}
+	#dp_modal .dp-close{
+		top: -63px;
+		border-top-width: 40px;
+		border-left-width: 40px;
+	}
+	#dp_modal .dp-close span{
+		top: -42px;
+	}
+	#dp_modal .dp-title{
+		text-align: center;
+	}
+	#dp_modal .nav-pills>li+li:last-child{
+		border-right-width: 0;
+	}
+}
