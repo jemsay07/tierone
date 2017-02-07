@@ -1513,6 +1513,7 @@ class tierone_tabbed_widget extends WP_Widget{
 						$comment_length = 80;
 						$args = array(
 							'number'       => $noc,
+							'status'       => 'approve'
 						);
 
 						//The Query

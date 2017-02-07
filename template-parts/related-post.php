@@ -40,7 +40,7 @@ $delta_tierone  = get_posts( $args );
 						</figure>
 					</div>
 					<div class="related-body">
-						<h3><a href="<?php get_permalink(); ?>"  rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
+						<h3><a href="<?php the_permalink(); ?>"  rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
 					</div>
 				</div>
 			</div>
